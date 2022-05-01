@@ -1,0 +1,7 @@
+driverName: postgres
+# url: "postgres://${DATABASE_USERNAME}:${DATABASE_PASSWORD}@${DATABASE_URL}/${DATABASE_NAME}?sslmode=disable&connect_timeout=10"
+url: "postgres://postgres:postgres@127.0.0.1/test_aspire?sslmode=disable&connect_timeout=10"
+maxOpenConnections: 5
+maxIdleConnections: 5
+connectionMaxLifetimeInSeconds: 30
+connectionMaxIdleTimeInSeconds: 30
